@@ -107,7 +107,7 @@ const Index = () => {
             <div className="flex justify-center items-center gap-2 text-sunset/80">
               <Skull className="h-4 w-4" />
               <p className="text-sm font-medium uppercase tracking-wider">
-                Built by students, for students
+                Earn while you learn.
               </p>
               <Skull className="h-4 w-4" />
             </div>
