@@ -7,9 +7,9 @@ const Index = () => {
   const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <div className="min-h-screen w-full dark-gradient-bg">
-      <header className="container mx-auto py-6">
-        <div className="flex justify-between items-center">
+    <div className="min-h-screen w-full dark-gradient-bg m-0 p-0">
+      <header className="container mx-auto pt-[2px] pb-2 m-0">
+        <div className="flex justify-between items-center -mt-4">
           <div className="flex items-center ">
             {/* Replace Skull icon and text with images */}
             <a
@@ -18,7 +18,7 @@ const Index = () => {
                 e.preventDefault();
                 window.location.reload();
               }}
-              className="flex items-center cursor-pointer"
+              className="flex items-center cursor-pointer" // Add negative margin-top here
             >
               <img
                 src="/assets/skull.PNG"
@@ -29,7 +29,7 @@ const Index = () => {
                 src="/assets/skull_logo.PNG"
                 alt="Skull Logo"
                 className="h-5"
-                style={{ height: "10rem" }}
+                style={{ height: "100px" }}
               />
             </a>
           </div>
