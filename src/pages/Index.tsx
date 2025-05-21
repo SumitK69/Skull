@@ -114,10 +114,6 @@ const Index = () => {
           </div>
         </div>
       </main>
-
-      <footer className="container mx-auto py-8 text-center text-sm text-sage/60">
-        <p>© {new Date().getFullYear()} Skull. All rights reserved.</p>
-      </footer>
     </div>
   );
 };
